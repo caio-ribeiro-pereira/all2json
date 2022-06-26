@@ -1,6 +1,6 @@
 {
   "name": "all2json",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Parse the main formats to json",
   "scripts": {
     "ts": "run-p ts:*",
