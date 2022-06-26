@@ -1,1 +1,0 @@
-export * from './dist/es2022/all2json.js'
