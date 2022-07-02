@@ -49,6 +49,6 @@ describe('#parseCSV', () => {
 
   it('raises error when csv is invalid', () => {
     const csvString = "name;age\nJohn,18\nConnor|20";
-    expect(() => parseCSV(csvString)).toThrow(/Parse error: UndetectableDelimiter/);
+    expect(() => parseCSV(csvString)).toThrow(/Parse CSV Error: UndetectableDelimiter/);
   });
 });
